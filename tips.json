@@ -1,0 +1,22 @@
+{
+  "tips": [
+    {
+      "_id": 1,
+      "name": "Call Forwarding",
+      "tip": "You can forward your calls to your cell phone?",
+      "url": "https://kb/call_forwarding-kb1234",
+      "stub": "call-forwarding",
+      "enabled": true,
+      "category": "Voice"
+    },
+    {
+      "_id": 2,
+      "name": "System Status",
+      "tip": "You can view the current System Status?",
+      "url": "https://kb/system_status-kb1235",
+      "stub": "system-status",
+      "enabled": true,
+      "category": "General"
+    }
+  ]
+}

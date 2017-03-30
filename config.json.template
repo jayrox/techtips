@@ -1,0 +1,9 @@
+{
+  "app": {
+    "port": 80,
+    "version": 1,
+    "speed": 30,
+    "hostname": "localhost",
+    "contactnumber": "+1 555.555.1234"
+  }
+}

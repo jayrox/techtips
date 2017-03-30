@@ -1,0 +1,83 @@
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*::after, *::before {
+  content: '';
+}
+
+html {
+    height: 100%;
+    max-height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    height: 100%;
+    max-height: 100%;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,freesans,sans-serif;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.3em;
+    color: #333;
+    background: fff;
+    /*background: #2b303b;*/
+}
+
+a {
+  text-decoration: none;
+  font-size: 125%;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+
+
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+
+#logo {
+    width:100%;
+}
+#logo > img {
+    margin: .5em auto;
+    display: block;
+}
+
+div#techtips {
+    margin: 1em auto;
+    width: 75%;
+}
+
+#techtips > H1 {
+    color: #337ab7;
+    font-size: 300%;
+    font-family: 'Satisfy', cursive;
+    width: 100%;
+    text-align: center;
+    margin: 1em auto 1em auto;
+}
+
+#techtips > p {
+    width: 100%;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+#techtips > :nth-child(2) { 
+    font-size: 200%;
+    margin: auto auto 1.5em auto;
+}
